@@ -1,0 +1,70 @@
+
+.circle1,.circle2,.circle3,.circle4{
+  width: 7rem;
+  height: 7rem;
+  border-radius: 100%;
+  position: absolute;
+}
+
+.circle1{
+    
+     animation:slide 10s ease-in-out  2.2s infinite;
+    background-color: dodgerblue; 
+}    
+.circle2{    
+   
+   animation: slide 10s ease-in-out  2.4s infinite;
+   background-color: black;
+
+}
+ .circle3{
+       
+      
+       animation: slide 10s ease-in-out 2.6s infinite ;
+       background-color:green;
+} 
+.circle4{
+       
+      
+       animation: slide 10s ease-in-out 2.8s infinite ;
+       background-color:red;
+} 
+
+
+
+@keyframes slide{
+    0%{
+    left: 0;
+    top: 0;
+   
+
+
+}
+25%{
+    left: 30rem; 
+    top: 0;
+    
+   
+}
+50%{
+    left: 30rem;
+    top: 30rem;
+}
+75%{
+    left: 0rem;
+    top: 30rem;
+   
+}          
+100%{
+    left: 0rem;
+    top: 0rem;
+  
+}
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
